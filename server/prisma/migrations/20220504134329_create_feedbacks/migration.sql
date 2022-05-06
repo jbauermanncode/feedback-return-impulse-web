@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE "feedbacks" (
-    "id" TEXT NOT NULL PRIMARY KEY,
-    "type" TEXT NOT NULL,
-    "comment" TEXT NOT NULL,
-    "screenshot" TEXT
+    "id" VARCHAR(191) NOT NULL PRIMARY KEY,
+    "type" VARCHAR(191) NOT NULL,
+    "comment" VARCHAR(191) NOT NULL,
+    "screenshot" VARCHAR(191)
 );
